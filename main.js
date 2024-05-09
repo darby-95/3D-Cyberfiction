@@ -482,7 +482,7 @@ canvas();
 ////////////////////////////////////////////////
 
 gsap.to('#page1',{
-    scrolltrigger:{
+    scrollTrigger:{
         trigger:'#page1',
         scroller:'#main',
         pin:true,
@@ -491,7 +491,7 @@ gsap.to('#page1',{
     }
 })
 gsap.to('#page2',{
-    scrolltrigger:{
+    scrollTrigger:{
         trigger:'#page2',
         scroller:'#main',
         pin:true,
@@ -500,7 +500,7 @@ gsap.to('#page2',{
     }
 })
 gsap.to('#page3',{
-    scrolltrigger:{
+    scrollTrigger:{
         trigger:'#page3',
         scroller:'#main',
         pin:true,
